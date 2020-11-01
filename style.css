@@ -8,7 +8,10 @@
     font-family: "Montserrat", sans-serif;
   }
   
+  
   /**********************HEADER-IMG-LOG***********************/
+
+
   header {
     width: 100%;
   }
@@ -165,7 +168,7 @@
   }
   
 
-  /*******************H1-P-P-BUTTON****************************/
+  /*****************************H1-P-BUTTON****************************/
   
 
   .h1-container {
@@ -229,7 +232,9 @@
  
 
   
-  /******************************* Section 1 ******************************/
+  /******************************* Section 1 - OUR STORY ******************************/
+
+
   
   .ourstory {
     width: 100%;
@@ -288,7 +293,7 @@
   
 
 
-  /******************************** Section 2 *********************************/
+  /***************************** Section 2 - WATCH OUR STORY ******************************/
   
 
 
@@ -320,7 +325,7 @@
 
 
   
-  /********************************* Section 3 *********************************/
+  /********************************* Section 3 - EXPERTISE************************************/
   
   
 
@@ -350,11 +355,13 @@
   }
   
   .sec-3-line {
-    color: rgb(97, 94, 94);
+    color:  rgb(55, 224, 247);
   }
-  
+
+
   /**********************IMG_DISPLAY_ROW_1**********************/
-  
+
+
   .sec-3-display-container {
     width: 80%;
     margin: 0 auto;
@@ -424,8 +431,10 @@
       border-left: 0px solid rgb(184, 179, 179);
     }
   }
+
   
   /************************IMG_DISPLAY_ROW_2*************************/
+
   
   .sec-3-2-display-container {
     width: 80%;
@@ -450,7 +459,7 @@
   }
   
   .sec-3-2-col {
-    padding: 10px;
+    padding: 9px;
     max-width: 700px;
   }
   
@@ -459,6 +468,7 @@
     border-left: 1px solid rgb(218, 215, 215);
   }
   
+
   @media screen and (max-width: 700px) and (min-width: 100px) {
     .col-class-3 {
       border-right: 0px solid rgb(184, 179, 179);
@@ -492,9 +502,9 @@
       justify-content: center;
     }
   }
-  
 
-  /********************Section 4- MEET OUR AMAZING TEAM*********************/
+
+  /*************************Section 4 - MEET OUR AMAZING TEAM***************************/
 
 
   .sec-4-container {
@@ -572,9 +582,7 @@
     }
 
 
-
-    /***************************BOXES***************************/
-
+    /********************************BOXES*********************************/
 
 
   .four-box-container {
@@ -636,6 +644,7 @@
     border: 1px solid #fff;
     border-top: 0px solid rgba(255, 255, 255, 0);
   }
+
 
 
   @media screen and (max-width: 876px) and (min-width: 765px){
@@ -723,7 +732,8 @@
   }
 
 
-  /********************Section 6- GOOD NEWS FORM***************/
+
+  /************************Section 5 - GOOD NEWS FORM************************/
 
   
 
@@ -738,8 +748,8 @@
   }
 
 
+
   @media screen and (max-width: 1299px) and (min-width: 500px){
-    
     .container {
       width: 60%;
       text-align: center;
@@ -747,7 +757,7 @@
       padding-top: 30px;
     }
 
-    .sec-6-h3 {
+    .sec-5-h3 {
       font-size: 21px;
       font-weight: 600;
       margin: 0 300px 0 0;
@@ -755,7 +765,6 @@
   }
 
   @media screen and (max-width: 1100px) and (min-width: 900px){
-
     .container {
       width: 50%;
       text-align: center;
@@ -763,20 +772,19 @@
       padding-top: 30px;
     }
 
-    .sec-6-h3 {
+    .sec-5-h3 {
       position: relative;
       font-size: 21px;
-      font-weight: 500;
+      font-weight: 600;
       margin: 0 200px 0 0;
       right: 0px;
     }
   }
 
-  .sec-6-h3 {
+  .sec-5-h3 {
     font-size: 21px;
     font-weight: 500;
   }
-
 
   form {
     display: flex;
@@ -787,9 +795,7 @@
     padding: 20px 0;
   }
 
-
 @media screen and (max-width: 500px) and (min-width: 300px){
-
   form {
     display: flex;
     flex-direction: column;
@@ -799,7 +805,7 @@
     padding: 20px 0;
   }
 }
-  
+
 
   input[type="text"],
   textarea {
@@ -850,18 +856,18 @@
     border: 1px solid rgb(55, 224, 247);
     transition: 0.4s;
   }
+
+
   
-
-
-  /***********************Section 7 - LOGOS***********************/
+  /********************Section 6 - LOGOS*********************/
 
 
 
   .sec-6-container {
     position: absolute;
-    width: 50%;
-    padding: -30px 0;
-    margin: -560px 0 0 930px;
+    width: 35%;
+    padding: 50px 0;
+    margin: -560px 0 0px 930px;
   }
 
   .sec-6-inner-container {
@@ -895,10 +901,9 @@
 
 
   @media screen and (max-width: 1646px) and (min-width: 1340px){
-
     .sec-6-h3-2 {
-      font-size: 25px;
-      font-weight: 600;
+      font-size: 21px;
+      font-weight: 500;
       margin-left: -60px;
       margin-top: -30px;
     }
@@ -909,11 +914,9 @@
   }
 
   @media screen and (max-width: 1340px) and (min-width: 1299px){
-
-
     .sec-6-h3-2 {
-      font-size: 25px;
-      font-weight: 600;
+      font-size: 21px;
+      font-weight: 500;
       margin-left: -60px;
       margin-top: -30px;
     }
@@ -924,17 +927,16 @@
   }
 
   @media screen and (max-width: 1299px) and (min-width: 1100px){
-
     .sec-6-h3-2 {
       position: absolute;
-      font-size: 25px;
-      font-weight: 600;
+      font-size: 21px;
+      font-weight: 500;
       top: 500px;
       left: -305px;
     }
 
     .sec-6-h3-2 {
-      font-size: 25px;
+      font-size: 21px;
       font-weight: 600;
       margin-left: -60px;
       margin-top: -30px;
@@ -948,4 +950,4 @@
   }
 
 
-  /********************Section 8 - FOOTER***************/
+  /********************Section 7 - FOOTER********************/
