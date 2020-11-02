@@ -1278,6 +1278,7 @@
     width: 100%;
     justify-content: center;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 
@@ -1327,6 +1328,8 @@ form {
 
 .h3-two {
     text-align: left;
+    font-size: 30px;
+    font-weight: 700;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -1396,18 +1399,172 @@ input,
 
 
 
+
+
+  /********************FOOTER***************/
+
+
+  footer {
+    width: 100%;
+    background-image: url(logo/logo/bgk-footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
   
-
-
-
-
-
-
-
-
-
-  /********************Section 8 - MEET OUR TEAM MEMBERS***************/
-
-
-  /********************Section 9 - FOOTER***************/
+  
+  
+  
+  .footer-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+  }
+  
+  
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+  
+  .footer-h3-1 {
+    color: rgb(26, 216, 250);
+    font-size: 30px;
+    font-weight: 400;
+  }
+  
+  
+  .footer-p {
+    color: #fff;
+    font-size: 13px;
+    padding-left: 5px;
+  }
+  
+  
+  .footer-sec {
+    padding: 3em;
+  }
+  
+  
+  
+  .footer-div-1-flex {
+    display: flex;
+    padding-right: 1em;
+  }
+  
+  
+  
+  
+  
+  
+  .footer-div-2-flex {
+    display: flex;
+    
+  }
+  
+  
+  .footer-h3-2 {
+    padding-bottom: 50px;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .sub-h4 {
+    color: #fff;
+  }
+  
+  
+  
+  
+  
+  
+  .footer-div-3-flex {
+    display: flex;
+    padding: 20px;
+  }
+  
+  
+  
+  
+  .paper-flex {
+    display: flex;
+  }
+  
+  
+  
+  
+  
+  .paper {
+    border: 1px solid rgb(26, 216, 250);
+    padding: 6px 13px 8px 13px;
+    background-color: rgba(255, 255, 255, 0.281);
+  }
+  
+  .paper:hover {
+    background-color: rgb(26, 216, 250);
+  }
+  
+  
+  #footer-submit {
+    font-size: 12px;
+    margin: 30px 0 10px 0;
+    color: #fff;
+    background-color: rgba(100, 148, 237, 0);
+    border: 1px solid  rgb(26, 216, 250);
+  }
+  
+  
+  #footer-submit:hover {
+    background-color: rgba(255, 255, 255, 0.281);
+    transition: 0.4s;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .footer-flex-container {
+    width: 100%;
+    display: grid;
+    padding-bottom: 30px;
+    grid-template-columns: 34% 34%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  
+  .footer-navigation {
+    margin: 0 auto;
+  }
+  
+  
+  .footer-navigation li {
+    display: inline-block;
+  }
+  
+  .footer-navigation li a {
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 5px;
+  }
+  
+  
+  .footer-navigation li a:hover {
+    color:  rgb(26, 216, 250);
+  }
+  
+  
+  .footer-ender{
+    margin: 0 auto;
+    color: #fff;
+    font-size: 13px;
+  }
